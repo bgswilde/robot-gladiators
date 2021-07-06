@@ -180,13 +180,13 @@ var shop = function() {
 };
 
 // function to set name
-var getPlayerName = function () {
+var getPlayerName = function() {
   var name = "";
   while (name === "" || name === null) {
     name = prompt("What is your robot's name?");
-  }
   
   console.log("Your robot's name is " + name);
+  }
 }
 
 /* END GAME FUNCTIONS */
